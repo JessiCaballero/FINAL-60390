@@ -1,0 +1,8 @@
+// me permite contener dos o varios estilos/valores
+
+$colores:
+black,rgb(38, 13, 53),white;
+
+.prueba-blackground{
+    background-color: nth($colores,1);
+}

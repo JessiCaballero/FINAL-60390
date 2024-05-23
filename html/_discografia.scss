@@ -1,0 +1,26 @@
+//estilos de discografia
+main {
+       .discografia {
+        display: flex;
+        flex-wrap:wrap;
+        flex-direction:row;
+        justify-content:center;
+        align-content: center;
+        align-items: center;
+        margin: 20px;
+        @include mobile {
+            flex-direction: column;
+           }
+        
+       
+        .disc {
+            img {
+                height: 200px;
+                width: 200px;
+                border-radius: 10px;
+                box-shadow: 4px 3px 5px rgb(34, 48, 65);
+                margin: 50px 50px;
+            }
+        }
+    }
+}

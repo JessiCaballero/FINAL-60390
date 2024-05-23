@@ -1,0 +1,256 @@
+footer {
+  font-family: roboto;
+  color: beige;
+  text-align: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0px;
+  align-content: end;
+  padding: 0px;
+}
+
+.prueba-blackground {
+  background-color: black;
+}
+
+main .discografia {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin: 20px;
+}
+main .discografia .disc img {
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 4px 3px 5px rgb(34, 48, 65);
+  margin: 50px 50px;
+}
+
+@font-face {
+  font-family: qebil;
+  src: url(../font/QEBIL.otf);
+}
+@font-face {
+  font-family: matroska;
+  src: url(../font/matroska-rppg6.ttf);
+}
+@font-face {
+  font-family: roboto;
+  src: url(../font/Roboto-Light.ttf);
+}
+@font-face {
+  font-family: medium;
+  src: url(../font/Roboto-Medium.ttf);
+}
+body {
+  background-color: rgb(0, 0, 0);
+}
+
+.navbar {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin: 28px 20px 10px 50px;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  font-family: medium;
+  align-items: start;
+}
+.navbar .navbar-brand {
+  margin: 0;
+  padding: 0;
+}
+.navbar img {
+  display: block;
+  width: 90px;
+  height: 50px;
+  margin: 2px 640px 10px 0px;
+}
+.navbar .navbar-expand-lg {
+  margin: 0;
+}
+.navbar .navbar-toggler {
+  border: none;
+  padding: 0;
+}
+.navbar .navbar-toggler .button {
+  margin: 0;
+}
+.navbar .container-fluid {
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  display: block;
+  font-size: 4em;
+  font-family: qebil;
+  color: #5C54F2;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+}
+
+h3 {
+  font-size: 3em;
+  font-family: matroska;
+  font-size: small;
+  padding: 10px;
+  color: beige;
+  margin-bottom: 30px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+section .video {
+  justify-self: center;
+  align-self: center;
+  place-self: center;
+}
+
+main section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  margin-top: 0px;
+  color: beige;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 576px) {
+  main section {
+    flex-direction: column;
+  }
+}
+main section p {
+  font-size: 14px;
+  font-family: roboto;
+  color: beige;
+  text-align: justify;
+  padding: 5px;
+  align-content: stretch;
+}
+main section .carta1 {
+  text-align: center;
+  width: 500px;
+  height: 590px;
+  background-image: url(../media/extra1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 70px;
+  margin: 30px;
+  border-radius: 30px;
+  box-shadow: 4px 4px 7px rgb(34, 48, 65);
+}
+main section .carta2 {
+  text-align: center;
+  width: 500px;
+  height: 590px;
+  background-image: url(../media/extra2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 70px;
+  margin: 10px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 7px rgb(34, 48, 65);
+}
+main section .carta3 {
+  text-align: center;
+  width: 500px;
+  height: 590px;
+  background-image: url(../media/extra3.jpg);
+  background-size: cover;
+  padding: 70px;
+  margin: 30px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 7px rgb(34, 48, 65);
+}
+
+.redes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: rgb(0, 0, 0);
+  margin: 50px 690px;
+  justify-content: center;
+  padding: 0;
+  margin: 0px;
+  align-content: end;
+  padding: 0px;
+}
+.redes a img {
+  width: 25px;
+  height: 25px;
+}
+
+main .galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+@media screen and (max-width: 576px) {
+  main .galeria {
+    flex-direction: column;
+  }
+}
+main .galeria img {
+  width: 500px;
+  height: 500px;
+  margin: 20px;
+  padding: 30px;
+  border-radius: 40px;
+}
+
+main section {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 150px 80px;
+}
+main section .tour {
+  margin-bottom: 40px;
+  gap: 50px;
+}
+main section .tour ul {
+  justify-content: center;
+  align-items: center;
+}
+main section .tour ul li {
+  font-family: medium;
+  font-size: 1em;
+  list-style: none;
+}
+@media screen and (max-width: 576px) {
+  main section .tour ul li {
+    flex-direction: column;
+  }
+}
+
+footer {
+  font-family: roboto;
+  color: beige;
+  text-align: center;
+  justify-content: center;
+  padding: 0;
+  margin: 0px;
+  align-content: end;
+  padding: 0px;
+}
+
+/*# sourceMappingURL=main.css.map */
